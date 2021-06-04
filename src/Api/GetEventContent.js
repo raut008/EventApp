@@ -4,7 +4,7 @@ import axios from "./Instance";
 import { Urlservices } from "./UrlServices";
 
 export const getEventContent = async () => {
-    const response = await fetch("http://localhost:3333/_embedded");
+    const response = await fetch(Urlservices());
     const data = await response.json();
     if (response.status >= 400) {
         throw new Error(data.errors);
