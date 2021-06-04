@@ -1,8 +1,10 @@
-# Getting Started with Create React App
+# Getting Started with Event Listing App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
+
+## Event Listing App URL : https://eventapp-31b14.web.app/
 
 In the project directory, you can run:
 
